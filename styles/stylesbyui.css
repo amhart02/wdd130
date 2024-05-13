@@ -1,0 +1,27 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+body{
+    margin: 0;
+}
+
+img {
+    width: 40%;
+}
+
+* {
+    border: 2px solid blue;
+}
