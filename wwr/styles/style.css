@@ -44,6 +44,7 @@ nav a:hover{
 }
 footer{
     background-color: #1d6b8f;
+    color: rgb(219, 218, 218);
 }
 .home-title{
     color: black;
@@ -52,10 +53,10 @@ h4{
     color: black;
 }
 .msg h2{
-    color: black
+    color: black;
 }
 .msg p{
-    color: black
+    color: black;
 }
 footer a{
     color: rgb(219, 218, 218);
