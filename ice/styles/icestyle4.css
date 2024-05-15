@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(67, 167, 218);
+    margin: 0 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top{
+    color: white;
+    text-align: center;
+}
+blockquote{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
+.top h1:hover{
+    color: black;
+}
+.list{
+    text-align: left;
+}
+img{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+main p{
+    text-align: center;
+    margin: 0 auto
+}
