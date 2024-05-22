@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a{
     text-align: center;
     color: rgb(219, 218, 218);
     text-decoration: none;
+    font-family: "Montserrat", Arial, Helvetica;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -22,6 +25,7 @@ main section{
 }
 body{
     background-color: rgb(229, 229, 229);
+    font-size: 22px;
 }
 header{
     background-color: #1d6b8f;
@@ -34,6 +38,8 @@ nav a:hover{
     background-color: rgb(229, 229, 229);
     color: #2ac2eb;
     text-decoration: none;
+    font-family: "Montserrat", Arial, Helvetica;
+    font-size: 18px;
 }
 .book:hover, .join:hover{
     background-color: white;
@@ -41,6 +47,7 @@ nav a:hover{
 }
 .msg{
     background-color: rgb(229, 229, 229);
+    line-height: 1.5em;
 }
 footer{
     background-color: #1d6b8f;
@@ -48,15 +55,21 @@ footer{
 }
 .home-title{
     color: black;
+    font-family: "Lora", "Times New Roman", Georgia;
+    font-size: 2em;
 }
 h4{
     color: black;
+    font-family: "Montserrat", Arial, Helvetica;
 }
 .msg h2{
     color: black;
+    font-family: "lora", "Times New Roman", Georgia;
 }
 .msg p{
     color: black;
+    font-family: "Montserrat", Arial, Helvetica;
+    font-size: .8em;
 }
 footer a{
     color: rgb(219, 218, 218);
@@ -76,7 +89,14 @@ footer a:hover{
 }
 footer p{
     font-size: 1.2em;
+    font-family: "Montserrat", Arial, Helvetica;
 }
 footer p a:hover{
     text-decoration: underline;
+}
+.mountains{
+    margin: 100px 0;
+}
+.home-grid h2{
+    font-family: "Lora", "Times New Roman", Georgia;
 }
