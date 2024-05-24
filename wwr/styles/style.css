@@ -9,6 +9,7 @@ nav a{
     color: rgb(219, 218, 218);
     text-decoration: none;
     font-family: "Montserrat", Arial, Helvetica;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -26,6 +27,8 @@ main section{
 body{
     background-color: rgb(229, 229, 229);
     font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: #1d6b8f;
@@ -40,6 +43,9 @@ nav a:hover{
     text-decoration: none;
     font-family: "Montserrat", Arial, Helvetica;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: white;
@@ -48,15 +54,19 @@ nav a:hover{
 .msg{
     background-color: rgb(229, 229, 229);
     line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #1d6b8f;
     color: rgb(219, 218, 218);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: black;
     font-family: "Lora", "Times New Roman", Georgia;
     font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
@@ -70,6 +80,7 @@ h4{
     color: black;
     font-family: "Montserrat", Arial, Helvetica;
     font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: rgb(219, 218, 218);
@@ -83,6 +94,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -99,4 +111,22 @@ footer p a:hover{
 }
 .home-grid h2{
     font-family: "Lora", "Times New Roman", Georgia;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .tips-and-tricks-card, .equipment-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #1d6b8f;
+}
+main section img{
+    box-sizing: border-box;
 }
