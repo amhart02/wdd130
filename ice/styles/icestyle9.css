@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    background-color: black;
+    width: 350px;
+    height: 667px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+main{
+    background-color: white;
+    text-align: center;
+    padding: 0 10%;
+    font-size: 1em;
+    font-family: "Merriweather", georgia, serif;
+}
+footer{
+    color: white;
+    background-color: #3f5b8b;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 0 0 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.weeks{
+    color: #3f5b8b;
+    padding-top: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+.paragraph{
+    margin: 0 auto;
+    padding-bottom: 10%;
+    color: gray;
+    height: 300;
+}
+.title{
+    font-weight: 1000;
+    margin-bottom: 10%;
+    margin-top: 0;
+}
+.number{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 25px;
+}
+.words{
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+}
+.grid1{
+    border-right: 1px solid rgb(181, 168, 95);;
+}
+.grid3{
+    border-left: 1px solid rgb(181, 168, 95);
+}
