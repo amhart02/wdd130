@@ -157,32 +157,36 @@ h1{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr;
+    justify-items: center;
 }
 .computer-desk{
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 100%;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
 }
 .woman-computer{
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 100%;
-    margin-bottom: 10%;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    margin: 5% 0;
 }
 .myprojects{
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: 6;
-    font-size: 6em;
+    font-size: 3em;
     justify-self: center;
     align-self: center;
-    
 }
 .myclasses{
     grid-column: 1/2;
     grid-row: 2/3;
     z-index: 6;
-    font-size: 6em;
+    font-size: 3em;
     justify-self: center;
     align-self: center;
 }
@@ -196,6 +200,64 @@ a:hover{
 a{
     text-decoration: none;
 }
+.hero-img{
+    width: 100vw;
+    height: 400px;
+    grid-area: 1/2/1/2;
+    object-fit: cover;
+    object-position: bottom center;
+}
+.myclassestitle{
+    font-family: var(--heading-font);
+    color: #F05D23;
+    font-size: 5em;
+    text-align: center;
+    z-index: 6;
+    grid-area: 1/2/1/2;
+    align-self: center;
+}
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.dog-with-glasses{
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+.classes{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+.databases{
+    grid-row: 1/2;
+}
+.programming{
+    grid-row: 2/3;
+}
+.websites{
+    grid-row: 3/4;
+}
+.databases, .programming, .websites{
+    border:#C5D86D solid 2px;
+    border-radius: 10px;
+    margin: 50px 10px;
+    padding: 10px 30px;
+    text-align: center;
+}
+.classes h2{
+    font-size: 2em;
+    border-bottom: var(--secondary-color) solid 2px;
+    padding-bottom: 20px;
+}
+h3{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
 
 @media screen and (min-width: 1200px) {
     .css-paragraph, .html-paragraph, .cool-pics-description, .mission-statement-description{
@@ -207,4 +269,45 @@ a{
     h1{
         font-size: 4em;
     }
+    .myclasses, .myprojects{
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .classes{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .databases{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .programming{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .websites{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .pages{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 0 5%;
+    }
+    .woman-computer, .myprojects{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .computer-desk, .myclasses{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .computer-desk, .woman-computer{
+        width: 90%;
+}
 }

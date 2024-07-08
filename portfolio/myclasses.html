@@ -10,15 +10,17 @@
 <body>
     <header>
         <nav>
-            <a href="index.html"><img src="images/portfolio-logo.png" alt="Web Basics Logo"></a>
-            <a href="myclasses.html">My Projects</a>
-            <a href="myprojects.html">My Classes</a>
+            <a href="index.html"><img class="logo" src="images/portfolio-logo.png" alt="Web Basics Logo"></a>
+            <a href="myprojects.html">My Projects</a>
+            <a href="myclasses.html">My Classes</a>
         </nav>
     </header>
     <main>
-        <h1>My Classes</h1>
-        <img src="images/code-with-glasses.jpg" alt="Picture of glasses in front of a computer with code.">
-        <section>
+        <section class="hero-section">
+            <h1 class="myclassestitle">My Classes</h1>
+            <img class="hero-img" src="images/code-with-glasses.jpg" alt="Picture of glasses in front of a computer with code.">
+        </section>
+        <section class="classes">
             <section class="databases">
                 <h2>Databases</h2>
                 <h3>Intro to Databases</h3>
@@ -35,7 +37,7 @@
                 <h3>Programming With Classes</h3>
                 <p>I learned about the programming language C#. I learned the basics of how to use it and what to use it for. I also learned the difference between python and C# which is that python is an interpreted programming language and C# is a compiled language.</p>
             </section>
-            <section>
+            <section class="websites">
                 <h2>Websites</h2>
                 <h3>Web Fundamentals</h3>
                 <p>In this class, I learned the basics of websites and how to create them from scratch. I was introduced to HTML and CSS. I created a white-water rafting site and this personal website, which helped me to learn new skills that are essential to website creation.</p>
@@ -43,15 +45,17 @@
                 <p>I continued to practice my skills with HTML and CSS and learned the basics of JavaScript. I also was taught how to ensure that the website functions well for different screen sizes. Each week I worked on projects that would help me to learn new skills involved in website creation.</p>
             </section>
         </section>
-        <img src="images/dog-with-glasses.jpg" alt="Dog wearing glasses using an iPad.">
+        <img class="dog-with-glasses" src="images/dog-with-glasses.jpg" alt="Dog wearing glasses using an iPad.">
     </main>
     <footer>
-        <p>Contact Me</p>
-        <a href="https://www.facebook.com/profile.php?id=100010330715071"><img src="images/facebook.png" alt="Facebook Icon"></a>
-        <a href="mailto:har20010@byui.edu"><img src="images/Gmail_icon_(2020).svg.png" alt="Gmail Icon"></a>
-        <p>Web Basics &copy; 2024 - Alayna Hart</p>
-        <a href="site-plan.html">Site Plan</a>
-        <a href="index.html"><img src="images/portfolio-logo.png" alt="Web Basics Logo"></a>
+        <p class="contact">Contact Me</p>
+        <section class="contact-pics">
+            <a href="https://www.facebook.com/profile.php?id=100010330715071"><img class="facebook" src="images/facebook.png" alt="Facebook Icon"></a>
+            <a href="mailto:har20010@byui.edu"><img class="gmail" src="images/Gmail_icon_(2020).svg.png" alt="Gmail Icon"></a>
+        </section>
+        <p class="copyright">Web Basics &copy; 2024 - Alayna Hart</p>
+        <a class="site-plan" href="site-plan.html">Site Plan</a>
+        <a id="logo" href="index.html"><img class="logo" src="images/portfolio-logo.png" alt="Web Basics Logo"></a>
     </footer>
 </body>
 </html>
